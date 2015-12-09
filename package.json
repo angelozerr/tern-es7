@@ -1,0 +1,31 @@
+{
+  "name": "tern-es7",
+  "license": "MIT",
+  "version": "0.1.0",
+  "main": "es7.js",
+  "author": "Angelo ZERR <angelo.zerr@gmail.com>",
+  "description": "A Tern plugin adding support for ES7.",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/angelozerr/tern-es7.git"
+  },
+  "scripts": {
+    "publish": "node ./scripts/git-tag.js",
+    "test": "node ./test/all.js"
+  },
+  "dependencies": {
+    "tern": "^0.16.0",
+    "acorn": "^2.6.4",
+    "acorn-es7": "^0.1.0"
+  },
+  "devDependencies": {
+  	"test": ">=0.0.5",
+  	"codemirror": "^5.9.0",
+  	"codemirror-extension": "^0.2.0",
+  	"codemirror-javascript": "^0.2.0"
+  },
+  "keywords": [
+    "tern",
+    "es7"
+  ]
+}
